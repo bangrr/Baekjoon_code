@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Baekjoon_9498 {
+public class Bj_9498 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int score = sc.nextInt();

@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class Baekjoon_2753 {
+public class Bj_2753 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int year = sc.nextInt();
 		sc.close();
 		
 		if (year%4 == 0 && year%100 != 0 || year%400 ==0)
-			System.out.println("1");	// À±³âÀÌ¸é 1
+			System.out.println("1");	// ìœ¤ë…„ì´ë©´ 1
 		else
-			System.out.println("0");	// ¾Æ´Ï¸é 0
+			System.out.println("0");	// ì•„ë‹ˆë©´ 0
 	}
 }

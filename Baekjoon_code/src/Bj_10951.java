@@ -12,5 +12,6 @@ public class Bj_10951 {
 //			int b = sc.nextInt();
 			System.out.println(a);
 		}
+		sc.close();
 	}
 }

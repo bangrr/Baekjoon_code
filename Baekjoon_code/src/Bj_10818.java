@@ -22,6 +22,7 @@ public class Bj_10818 {
 				break;
 			}
 		}
+		sc.close();
 		
 		
 		

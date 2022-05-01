@@ -8,28 +8,19 @@ public class Bj_10818 {
 		
 		for(int i=0; i<n; i++) {
 			array[i] = sc.nextInt();
-			int max = array[0];
-			int min = array[0];
-			
+		}
+		
+		int max = array[0];
+		int min = array[0];
+		
+		for(int i=0; i<n; i++) {
 			if (max < array[i]) {
 				max = array[i];
-			}
-			if (min > array[i]) {
+			} else if (min > array[i]){
 				min = array[i];
 			}
-			if (i==n) {
-				System.out.println(max + " " + min);
-				break;
-			}
 		}
+		System.out.printf("%d %d", min, max);
 		sc.close();
-		
-		
-		
-//		for(int i=0; i<n; i++) {
-//			System.out.print(array[i] + " ");
-//		}
-//		sc.close();
-//		System.out.println(max + " " + min);
 	}
 }

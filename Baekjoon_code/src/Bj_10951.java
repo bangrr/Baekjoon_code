@@ -6,11 +6,9 @@ public class Bj_10951 {
 		
 		while(sc.hasNextInt()) {
 			int a = sc.nextInt();
-//			if(sc.next() == "\n") {
-//				System.out.println("123");
-//			}
-//			int b = sc.nextInt();
-			System.out.println(a);
+			int b = sc.nextInt();
+			
+			System.out.println(a+b);
 		}
 		sc.close();
 	}

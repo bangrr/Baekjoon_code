@@ -19,3 +19,4 @@ public class Bj_1152 {
 		System.out.print(cnt);
 	}
 }
+ 

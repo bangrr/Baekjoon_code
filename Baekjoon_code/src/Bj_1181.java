@@ -15,14 +15,10 @@ public class Bj_1181 {
 		if (n>1) {
 			for (int j=1; j<=50; j++) {
 				for (int i=0; i<n; i++) {
-					if (i==n-1) {
-						if (arr[i].length() == j) {
+					if (i==n-1 && arr[i].length() == j) {
 							System.out.println(arr[i]);
-						}
-					} else {
-						if (arr[i].length() == j && !(arr[i].equals(arr[i+1]))) {
+					} else if (arr[i].length() == j && !(arr[i].equals(arr[i+1]))) {
 							System.out.println(arr[i]);
-						}
 					}
 				}
 			}

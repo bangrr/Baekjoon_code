@@ -1,15 +1,19 @@
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class Bj_10951 {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		String s;
 		
-		while(sc.hasNextInt()) {
-			int a = sc.nextInt();
-			int b = sc.nextInt();
+		while((s = br.readLine()) != null) {
+			StringTokenizer st = new StringTokenizer(s);
+			int a = Integer.parseInt(st.nextToken());
+			int b = Integer.parseInt(st.nextToken());
 			
-			System.out.println(a+b);
+			sb.append(a+b + "\n");
 		}
-		sc.close();
+		System.out.println(sb);
 	}
 }

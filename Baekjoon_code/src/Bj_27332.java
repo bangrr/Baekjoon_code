@@ -7,7 +7,7 @@ public class Bj_27332 {
 		int n = Integer.parseInt(br.readLine());
 		int m = Integer.parseInt(br.readLine());
 		
-		if (n + 4*m > 31) {
+		if (n + 7*m > 30) {
 			System.out.print(1);
 		} else {
 			System.out.print(0);

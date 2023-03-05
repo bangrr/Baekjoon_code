@@ -1,26 +1,24 @@
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class Bj_10818 {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int[] array = new int[n];
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		int n = Integer.parseInt(br.readLine());
+		int max = -1000000;
+		int min = 1000000;
 		
+		st = new StringTokenizer(br.readLine());
 		for(int i=0; i<n; i++) {
-			array[i] = sc.nextInt();
-		}
-		
-		int max = array[0];
-		int min = array[0];
-		
-		for(int i=0; i<n; i++) {
-			if (max < array[i]) {
-				max = array[i];
-			} else if (min > array[i]){
-				min = array[i];
+			int tmp = Integer.parseInt(st.nextToken());
+			if (max < tmp) {
+				max = tmp;
+			}
+			if (min > tmp){
+				min = tmp;
 			}
 		}
-		System.out.printf("%d %d", min, max);
-		sc.close();
+		System.out.print(min + " " + max);
 	}
 }

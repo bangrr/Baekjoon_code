@@ -4,22 +4,19 @@ public class Bj_1546 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		double[] score = new double[n];
 		
-		double max = 0;
-		double sum = 0;
-		
-		for (int i=0; i<n; i++) {
-			score[i] = sc.nextInt();
-			max = max < score[i] ? score[i] : max;
-		}
+		int max = 0;
+		int sum = 0;
 		
 		for (int j=0; j<n; j++) {
-			score[j] = score[j]/max*100;
-			sum += score[j];
+			int tmp = sc.nextInt();
+			if (max < tmp) {
+				max = tmp;
+			}
+			sum += tmp;
 		}
 		
+		System.out.println(sum*100.0/max/n); // 100.0 을 곱하면서 double을 만든다
 		sc.close();
-		System.out.println(sum/n);
 	}
 }

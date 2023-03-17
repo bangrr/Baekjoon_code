@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
  
 public class Bj_1427 {
     public static void main(String[] args) throws Exception {
@@ -11,10 +10,25 @@ public class Bj_1427 {
         for (int i=0; i<s.length(); i++) {
         	a[i] = s.charAt(i) - '0';
         }
-        Arrays.sort(a);
-        for (int i=s.length()-1; i>=0; i--) {
+//        Arrays.sort(a);
+        // 선택정렬 구현
+        for (int i=0; i<s.length(); i++) {
+        	int max = i;
+        	for (int j=i+1; j<s.length(); j++) {
+        		if (a[j] > a[max]) {
+        			max = j;
+        		}
+        	}
+        	if (a[i] < a[max]) {
+        		int tmp = a[i];
+        		a[i] = a[max];
+        		a[max] = tmp;
+        	}
+        }
+        
+        for (int i=0; i<s.length(); i++) {
         	sb.append(a[i]);
         }
-        System.out.println(sb);
+        System.out.print(sb.toString());
     }
 }

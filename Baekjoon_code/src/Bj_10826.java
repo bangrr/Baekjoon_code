@@ -7,7 +7,7 @@ public class Bj_10826 {
 		
 		int n = sc.nextInt();
 		
-		BigInteger a = new BigInteger("0");;
+		BigInteger a = new BigInteger("0");
 		BigInteger b = new BigInteger("1");
 		BigInteger c = new BigInteger("0");
 		

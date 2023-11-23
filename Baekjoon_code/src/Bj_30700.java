@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+ 
+public class Bj_30700 {
+	// 입출력 메소드
+	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	static StringBuilder sb = new StringBuilder();
+	static StringTokenizer st;
+ 
+	// main 메소드
+	public static void main(String[] args) throws IOException {
+        String s = br.readLine();
+        char[] arr = {'K','O','R','E','A'};
+        int p = 0;
+        int cnt = 0;
+        for (int i=0; i<s.length(); i++) {
+            if (arr[p] == s.charAt(i)) {
+                cnt++; p++;
+                if (p==5) p=0;
+            }
+        }
+        System.out.print(cnt);
+	}
+}

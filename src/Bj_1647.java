@@ -1,7 +1,3 @@
-/**********************************
- * 아직 문제를 해결하지 못한 코드입니다 *
- **********************************/
-
 import java.io.*;
 import java.util.*;
 
@@ -29,9 +25,9 @@ public class Bj_1647 {
         int v = Integer.parseInt(st.nextToken());
         int e = Integer.parseInt(st.nextToken());
 
-        boolean[] visited = new boolean[v+1];
-        ArrayList<Node>[] adjList = new ArrayList[v+1];
-        for (int i=1; i<=v; i++) {
+        boolean[] visited = new boolean[v + 1];
+        ArrayList<Node>[] adjList = new ArrayList[v + 1];
+        for (int i = 1; i <= v; i++) {
             adjList[i] = new ArrayList<>();
         }
 
@@ -46,25 +42,24 @@ public class Bj_1647 {
         }
 
         PriorityQueue<Node> pq = new PriorityQueue<>();
-        pq.add(new Node(1,0));
+        pq.add(new Node(1, 0));
 
-        int cnt = 1;
         int ans = 0;
-        while(!pq.isEmpty()) {
+        int max = 0;
+        while (!pq.isEmpty()) {
             Node n = pq.poll();
             int to = n.to;
             int weight = n.weight;
 
             if (visited[to]) continue;
             visited[to] = true;
-            if (cnt == v) break;
-            cnt++;
             ans += weight;
+            max = Math.max(max, weight);
 
             for (Node next : adjList[to]) {
                 if (!visited[next.to]) pq.add(next);
             }
         }
-        System.out.print(ans);
+        System.out.print(ans - max);
     }
 }

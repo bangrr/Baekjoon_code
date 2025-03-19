@@ -21,7 +21,6 @@ public class Bj_1331 {
             }
 
             if (!set.isEmpty()) {
-//                String last = set.toArray(new String[0])[set.size() - 1];
                 valid = isValid(lastMove, next);
                 if (!valid) {
                     break;

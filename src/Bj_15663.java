@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class BJ_15663 {
+public class Bj_15663 {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static StringBuilder sb = new StringBuilder();
 	static int N, M;

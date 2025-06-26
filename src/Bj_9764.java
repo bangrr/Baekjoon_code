@@ -27,7 +27,7 @@ public class Bj_9764 {
         System.out.print(sb);
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

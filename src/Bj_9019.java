@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_9019 {
-    static class Register {
+    private static class Register {
         int num;
         String str;
 

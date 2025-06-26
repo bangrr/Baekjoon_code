@@ -9,7 +9,7 @@ public class Bj_21610 {
     static int[] dc = {0, -1, -1, 0, 1, 1, 1, 0, -1};
     static ArrayList<Cloud> clouds;
 
-    static class Cloud {
+    private static class Cloud {
         int y, x;
 
         public Cloud(int y, int x) {

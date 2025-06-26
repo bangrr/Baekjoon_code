@@ -48,7 +48,7 @@ public class Bj_31430 {
         return ret;
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

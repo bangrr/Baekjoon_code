@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_2535 {
-    static class Student {
+    private static class Student {
         int a, b, c;
 
         public Student(int a, int b, int c) {

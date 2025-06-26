@@ -39,7 +39,7 @@ public class Bj_2628 {
         System.out.print(maxC * maxR);
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

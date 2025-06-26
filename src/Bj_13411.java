@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_13411 {
-    public static class Something implements Comparable<Something> {
+    private static class Something implements Comparable<Something> {
         double time;
         int num;
 

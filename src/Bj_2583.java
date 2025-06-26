@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_2583 {
-	static class Pos {
+	private static class Pos {
 		int r, c;
 		
 		public Pos(int r, int c) {

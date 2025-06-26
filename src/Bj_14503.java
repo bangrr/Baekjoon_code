@@ -6,7 +6,7 @@ public class Bj_14503 {
     static int[] DR = {-1, 0, 1, 0};
     static int[] DC = {0, 1, 0, -1};
 
-    static class Robot {
+    private static class Robot {
         int r, c, d;
 
         public Robot(int r, int c, int d) {

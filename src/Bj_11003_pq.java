@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_11003_pq {
-	static class Item {
+	private static class Item {
 		int idx, value;
 		
 		public Item(int idx, int value) {

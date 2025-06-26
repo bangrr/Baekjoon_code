@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 public class Bj_1753 {
-    static class Pair {
+    private static class Pair {
         int v, w;
 
         public Pair(int v, int w) {
@@ -61,7 +61,7 @@ public class Bj_1753 {
         System.out.print(sb);
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

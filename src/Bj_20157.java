@@ -35,7 +35,7 @@ public class Bj_20157 {
         System.out.print(ans);
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

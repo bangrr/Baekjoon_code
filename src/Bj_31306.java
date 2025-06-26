@@ -17,7 +17,7 @@ public class Bj_31306 {
         System.out.print(x + " " + (x+y));
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

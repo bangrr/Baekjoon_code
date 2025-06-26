@@ -14,7 +14,7 @@ maxSafeCnt : 안전영역 최대 갯수
 
 */
 public class Bj_2468 {
-	static class Pos {
+	private static class Pos {
 		int r, c;
 		
 		public Pos(int r, int c) {

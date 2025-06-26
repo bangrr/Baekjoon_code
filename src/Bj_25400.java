@@ -19,7 +19,7 @@ public class Bj_25400 {
         System.out.print(a);
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

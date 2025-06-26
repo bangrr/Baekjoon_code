@@ -15,7 +15,7 @@ public class Bj_14495 {
         System.out.print(dp[n]);
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

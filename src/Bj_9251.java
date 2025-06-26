@@ -28,7 +28,7 @@ public class Bj_9251 {
         System.out.print(max);
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

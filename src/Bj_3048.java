@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
  
 public class Bj_3048 {
-	static class Ant {
+	private static class Ant {
 		char ch;
 		int grp;
 		

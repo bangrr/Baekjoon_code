@@ -54,7 +54,7 @@ public class Bj_7576 {
         }
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

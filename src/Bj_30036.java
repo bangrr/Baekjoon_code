@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_30036 {
-	static class Square {
+	private static class Square {
 		int y, x, ink;
 		
 		public Square(int y, int x, int ink) {

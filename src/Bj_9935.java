@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 public class Bj_9935 {
-    static class BombChecker {
+    private static class BombChecker {
         char ch;
         int cnt;
 
@@ -53,7 +53,7 @@ public class Bj_9935 {
         }
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

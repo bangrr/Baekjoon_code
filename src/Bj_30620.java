@@ -13,7 +13,7 @@ public class Bj_30620 {
         System.out.println(y-mul);
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

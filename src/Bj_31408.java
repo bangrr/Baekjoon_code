@@ -20,7 +20,7 @@ public class Bj_31408 {
         System.out.print("YES");
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

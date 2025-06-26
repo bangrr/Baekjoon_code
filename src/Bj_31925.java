@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_31925 {
-    static class Info {
+    private static class Info {
         String name, jaehew, susang;
         int best, apc;
         boolean check;

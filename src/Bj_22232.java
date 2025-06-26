@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_22232 {
-    static class Pair {
+    private static class Pair {
         String name, ext;
 
         public Pair(String name, String ext) {

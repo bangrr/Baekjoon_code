@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_2822 {
-    static class Participant {
+    private static class Participant {
         int no;
         int score;
 

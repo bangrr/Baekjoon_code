@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_1197 {
-    static class Node implements Comparable<Node> {
+    private static class Node implements Comparable<Node> {
         int to, weight;
 
         public Node(int to, int weight) {

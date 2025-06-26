@@ -31,7 +31,7 @@ public class Bj_1822 {
         System.out.print(sb);
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

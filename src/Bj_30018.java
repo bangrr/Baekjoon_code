@@ -18,7 +18,7 @@ public class Bj_30018 {
         System.out.print(ans/2);
     }
 
-    static class FastReader {
+    private static class FastReader {
         BufferedReader br;
         StringTokenizer st;
 

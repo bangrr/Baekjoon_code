@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Bj_1063 {
-	static class Something {
+	private static class Something {
 		int r, c;
 		
 		public Something(int r, int c) {

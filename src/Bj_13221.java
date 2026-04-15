@@ -17,7 +17,7 @@ public class Bj_13221 {
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
             int mht = Math.abs(a - x) + Math.abs(b - y);
-            if (min > mht) {
+            if (min >= mht) {
                 min = mht;
                 sb.setLength(0);
                 sb.append(a).append(" ").append(b).append("\n");
